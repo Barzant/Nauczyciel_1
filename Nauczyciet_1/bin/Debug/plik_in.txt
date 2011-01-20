@@ -1,0 +1,3 @@
+linia1.0 linia1.1 linia1.2
+linia2.0 linia2.1 linia2.2
+linia3.0 linia3.1 linia3.2
