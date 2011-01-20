@@ -18,6 +18,8 @@ using Excel = Microsoft.Office.Interop.Excel;
 //test commit5
 
 
+//test2 commit6
+
 namespace Nauczyciel1
 {
     class WczytajExcel
