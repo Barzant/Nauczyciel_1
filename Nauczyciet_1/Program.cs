@@ -93,7 +93,7 @@ namespace Nauczyciel1
             srInput.Close();
             fsInput.Close();
 
-            Console.Write("\n" + "Plik wczytanu do tabeli." + "\n");
+            Console.Write("\n" + "Plik wczytaniu do tabeli." + "\n");
 
             //wyswietlenie zmian II
             Console.Write("\n" + "Zmiany po wczytaniu pliku." + "\n");
@@ -135,7 +135,7 @@ namespace Nauczyciel1
     {         
         static void Main()
         {
-            Console.WriteLine("Czy wczytaj plik Excel? (y/n) \n");
+            Console.WriteLine("Czy na pewno wczytać plik Excel? (y/n) \n");
             string czywczytacexcel = Console.ReadLine();
             if (czywczytacexcel == "y")
             {
@@ -157,7 +157,7 @@ namespace Nauczyciel1
             Console.WriteLine (szArray[1]);
             */
 
-            Console.WriteLine("Czy wczytac plik Txt? (y/n) \n");
+            Console.WriteLine("Czy na pewno wczytać plik Txt? (y/n) \n");
             string czywczytactxt = Console.ReadLine();
             if (czywczytactxt == "y")
             {
