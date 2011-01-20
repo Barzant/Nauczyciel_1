@@ -5,3 +5,7 @@ C:\Users\Barzant\Documents\Visual Studio 2010\Projects\Nauczyciet_1\Nauczyciet_1
 C:\Users\Barzant\Documents\Visual Studio 2010\Projects\Nauczyciet_1\Nauczyciet_1\obj\x86\Debug\Nauczyciet_1.pdb
 C:\Users\Barzant\documents\visual studio 2010\Projects\Nauczyciet_1\Nauczyciet_1\obj\x86\Debug\Interop.VBIDE.dll
 C:\Users\Barzant\documents\visual studio 2010\Projects\Nauczyciet_1\Nauczyciet_1\obj\x86\Debug\Nauczyciet_1.csproj.ResolveComReference.cache
+E:\Tortoise_Programy\Nauczyciel_1\Nauczyciet_1\obj\x86\Debug\Interop.VBIDE.dll
+E:\Tortoise_Programy\Nauczyciel_1\Nauczyciet_1\obj\x86\Debug\Nauczyciet_1.csproj.ResolveComReference.cache
+E:\Tortoise_Programy\Nauczyciel_1\Nauczyciet_1\obj\x86\Debug\Nauczyciet_1.exe
+E:\Tortoise_Programy\Nauczyciel_1\Nauczyciet_1\obj\x86\Debug\Nauczyciet_1.pdb

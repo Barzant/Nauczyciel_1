@@ -9,6 +9,8 @@ using Office = Microsoft.Office.Core;
 using Excel = Microsoft.Office.Interop.Excel;
 
 
+//test Commit2 20110120
+
 namespace Nauczyciel1
 {
     class WczytajExcel
