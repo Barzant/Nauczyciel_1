@@ -24,7 +24,7 @@ namespace Nauczyciel1
 {
     class WczytajExcel
     {
-        private string m_xlFileName = @"E:\pliczek_in.xls";
+        private string m_xlFileName = @"E:\plik_in.xls";
         private Excel.Application m_xlApp;                      // obiekt aplikacji
         private Excel.Range m_projectRange;                     // zakres danych do wczytania
         private Excel.Workbook m_xlWorkbook;                    // dokument
