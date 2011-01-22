@@ -9,16 +9,6 @@ using Office = Microsoft.Office.Core;
 using Excel = Microsoft.Office.Interop.Excel;
 
 
-//test Commit2 20110120
-
-//test3 Commit3 20110120
-
-
-
-//test commit5
-
-
-//test2 commit6
 
 namespace Nauczyciel1
 {
@@ -71,7 +61,7 @@ namespace Nauczyciel1
                 Console.WriteLine();
             }
             //NIE DZIALA TAK
-            return tab1[0,1];
+           // return string[,];
         }
     }
 
@@ -142,9 +132,9 @@ namespace Nauczyciel1
             if (czywczytacexcel == "y")
             {
                 WczytajExcel wczytane = new WczytajExcel();
-                wczytane.CzytajDane();
+                var tab1 = wczytane.CzytajDane();
 
-                Console.WriteLine("Tab 0.1=" + wczytane.CzytajDane() + "\n");
+                Console.WriteLine("Tab 0.1=" + tab1 + "\n");
                 
 
             }
