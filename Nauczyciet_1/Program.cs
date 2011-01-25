@@ -21,7 +21,7 @@ namespace Nauczyciel1
         private Excel.Worksheet m_xlWorksheet;                  // arkusz
         private System.Object m_xx = System.Type.Missing;
 
-        public string CzytajDane()
+        public string[,] CzytajDane()
         {
             m_xlApp = new Excel.Application();
             m_xlApp.DisplayAlerts = false;
@@ -60,8 +60,8 @@ namespace Nauczyciel1
                 }
                 Console.WriteLine();
             }
-            //NIE DZIALA TAK
-           // return string[,];
+           
+            return tab1;
         }
     }
 
@@ -132,10 +132,9 @@ namespace Nauczyciel1
             if (czywczytacexcel == "y")
             {
                 WczytajExcel wczytane = new WczytajExcel();
-                var tab1 = wczytane.CzytajDane();
+                string[,] tab_excel = wczytane.CzytajDane();
+                Console.WriteLine("\nElemt 1,1= \n" + tab_excel[1, 1]);
 
-                Console.WriteLine("Tab 0.1=" + tab1 + "\n");
-                
 
             }
                           
