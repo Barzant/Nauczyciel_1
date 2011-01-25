@@ -8,8 +8,6 @@ using System.IO;
 using Office = Microsoft.Office.Core;
 using Excel = Microsoft.Office.Interop.Excel;
 
-
-
 namespace Nauczyciel1
 {
     class WczytajExcel
@@ -133,7 +131,7 @@ namespace Nauczyciel1
             {
                 WczytajExcel wczytane = new WczytajExcel();
                 string[,] tab_excel = wczytane.CzytajDane();
-                Console.WriteLine("\nElemt 1,1= \n" + tab_excel[1, 1]);
+                Console.WriteLine("\nElemt 1,1= \n" + tab_excel[2, 1]);
 
 
             }
@@ -202,19 +200,6 @@ namespace Nauczyciel1
                     }
                     Console.WriteLine();
                 }
-
-
-                //WYSWIETLENIE tab1 z classy WczytajExcel
-                /*
-                for (int i = 0; i < n; i++)
-                {
-                    for (int j = 0; j < m; j++)
-                    {
-                        Console.Write(wczytane.CzytajDane.tab1[i, j] + "\t"); // cos zle
-                    }
-                    Console.WriteLine();
-                }
-                */
 
 
                 for (int i = 0; i < n; i++)
